@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Box Shadow start*/
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+.shadow-box h1 {
+	color: grey;
+	padding: 15px 0;
+}
+.shadow-box p{
+ 	border: 1px solid #e5e4dc;
+ 	border-radius: 4px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 3px 3px 3px #adaca4;
+ }
+/*Box Shadow end*/
+/*outline start*/
+.outline h1 {
+	color: grey;
+	padding: 15px 0;
+}
+.outline p {
+	border: 1px solid #e5e4dc;
+	border-radius: 3px;
+	padding: 10px;
+    width: 50%;
+    text-align: center;
+    outline-style: outset;
+    outline-color: #cecdca;
+}
+/*outline end*/
+/*input, form, focus start*/
+.form1 {
+	padding: 20px 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative;
+}
+.form1 input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	font-size: 18px;
+	padding: 10px 10px;
+	outline: none;
+}
+.form1 button{
+	border: 1px solid #e5e4dc;
+	background: transparent;
+	position: absolute;
+	top: 116px;
+    right: 1044px;
+    padding: 5px 0;
+    transition: .5s;
+}
+.form1 button:hover {
+	color: white;
+	background-color: #626262;
+	border: 1px solid white;
+}
+input:focus {
+    background-color: #ede6d0;
+}
+/*input, form, focus end*/
+/*positioning start*/
+.container {
+	border: 1px solid red;
+	width: 80%;
+	min-height: 300px;
+	margin: 30px auto;
+	overflow: hidden;
+	background-color: #e1e5ed;
+	position: relative;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+.box1 {
+	background-color: yellow;
+	top: 0;
+	left: 0;
+}
+.box2 {
+	background-color: green;
+	top: 0;
+	right: 0;
+}
+.box3 {
+	background-color: blue;
+	left: 0;
+	right: 0;
+	top: 100px;
+	margin: 0 auto;
+}
+.box4 {
+	background-color: pink;
+	bottom: 0;
+	left: 0;
+}
+.box5 {
+	background-color: black;
+	bottom: 0;
+	right: 0;
+}
+/*positioning end*/
